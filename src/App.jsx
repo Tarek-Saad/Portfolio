@@ -165,7 +165,7 @@ function App() {
     {
       id: 4,
       imgPath: ngrokMainImage, // صورة الغلاف الرئيسية للمشروع
-      imagePaths: [], // صور إضافية للمشروع
+      imagePaths: [ngrokMainImage], // صور إضافية للمشروع
       title: "ngrok in Action - API Tunneling for Developers",
       description:
         "A GitHub repository demonstrating how to use ngrok for exposing local servers to the internet. This project simplifies API testing and integration for developers.",
