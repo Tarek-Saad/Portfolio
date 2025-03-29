@@ -9,6 +9,7 @@ import AOS from "aos";
 import chatMainImage from "../../Assets/Projects/chat.png";
 import doctorMainImage from "../../Assets/projectsImages/doctor/1.PNG";
 import lmsMainImage from "../../Assets/projectsImages/lms/1.PNG";
+import ngrokMainImage from "../../Assets/projectsImages/lms/1.PNG";
 
 function Projects() {
   useEffect(() => {
@@ -95,7 +96,29 @@ function Projects() {
       ],
       date: "March 27, 2024",
       views: 0,
+    },
+    {
+      id: 4,
+      imgPath: ngrokMainImage, // صورة الغلاف الرئيسية للمشروع
+      title: "ngrok in Action - API Tunneling for Developers",
+      description:
+        "A GitHub repository demonstrating how to use ngrok for exposing local servers to the internet. This project simplifies API testing and integration for developers.",
+      ghLink: "https://github.com/Tarek-Saad/ngrok-api-tunnel",
+      demoLink: "", // لا يوجد رابط ديمو لأنه مشروع توثيقي
+      skills: ["ngrok", "Networking", "REST APIs", "Backend Integration"],
+      technologies: ["Tunneling", "API Testing", "Remote Access"],
+      tools: ["ngrok", "Postman", "GitHub", "VS Code"],
+      keyFeatures: [
+        "Secure API Tunneling: Expose local servers to the internet with ease.",
+        "Simplified API Testing: Frontend developers can test APIs without running backend locally.",
+        "Improved Collaboration: Enables seamless API access for mobile and web developers.",
+        "No Heavy Setup: Reduces hardware dependency for development.",
+        "Step-by-Step Guide: Includes detailed usage instructions.",
+      ],
+      date: "March 29, 2025",
+      views: 0,
     }
+    
   ];
 
   return (
