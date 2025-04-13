@@ -37,7 +37,7 @@ function Projects() {
         "TypeScript",
         "PostgreSQL",
       ],
-      technologies: ["WebSockets", "Clerk", "drizzle", "Vercel", "GitHub Actions"],
+      technologies: [],
       tools: ["VS Code", "GitHub", "Vercel"],
       keyFeatures: [
         "🔹 **Diverse Learning Challenges**: Supports various challenge types including coding exercises, multiple choice, text, image, video, and more.",
