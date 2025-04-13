@@ -10,6 +10,7 @@ import chatMainImage from "../../Assets/Projects/chat.png";
 import doctorMainImage from "../../Assets/projectsImages/doctor/1.PNG";
 import lmsMainImage from "../../Assets/projectsImages/lms/1.PNG";
 import ngrokMainImage from "../../Assets/projectsImages/lms/1.PNG";
+import codengoMainImage from "../../Assets/Projects/codengo.png";
 
 function Projects() {
   useEffect(() => {
@@ -24,7 +25,7 @@ function Projects() {
 
     {
       id: 1,
-      imgPath: chatMainImage,
+      imgPath: codengoMainImage,
       title: "Codengo - learn programming in fun way",
       description:
         "A platform for learning programming in a fun and interactive way. Users can practice coding and receive instant feedback. ",
@@ -34,22 +35,7 @@ function Projects() {
         "React",
         "Next.js",
         "TypeScript",
-        "Tailwind CSS",
         "PostgreSQL",
-        "Clerk",
-        "drizzle",
-        "Vercel",
-        "GitHub Actions",
-        "React Hooks",
-        "Dynamic Imports",
-        "State Management",
-        "Gamification",
-        "Audio Feedback",
-        "Project-Based Learning",
-        "API Integration",
-        "Real-Time Data",
-        "Responsive Design",
-        "Local Storage"
       ],
       technologies: ["WebSockets", "Clerk", "drizzle", "Vercel", "GitHub Actions"],
       tools: ["VS Code", "GitHub", "Vercel"],
