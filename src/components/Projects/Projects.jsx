@@ -21,8 +21,53 @@ function Projects() {
   }, []);
 
   const projects = [
+
     {
       id: 1,
+      imgPath: chatMainImage,
+      title: "Codengo - learn programming in fun way",
+      description:
+        "A platform for learning programming in a fun and interactive way. Users can practice coding and receive instant feedback. ",
+        ghLink: "https://github.com/Tarek-Saad/codengo",
+        demoLink: "https://codengo.vercel.app/",
+      skills: [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Clerk",
+        "drizzle",
+        "Vercel",
+        "GitHub Actions",
+        "React Hooks",
+        "Dynamic Imports",
+        "State Management",
+        "Gamification",
+        "Audio Feedback",
+        "Project-Based Learning",
+        "API Integration",
+        "Real-Time Data",
+        "Responsive Design",
+        "Local Storage"
+      ],
+      technologies: ["WebSockets", "Clerk", "drizzle", "Vercel", "GitHub Actions"],
+      tools: ["VS Code", "GitHub", "Vercel"],
+      keyFeatures: [
+        "🔹 **Diverse Learning Challenges**: Supports various challenge types including coding exercises, multiple choice, text, image, video, and more.",
+        "🔹 **Project-Based Learning**: Offers project creation, completion, and management, allowing users to work on real-world coding tasks.",
+        "🔹 **Gamification**: Includes a heart system for limited attempts, rewards points and XP for completing challenges, and provides visual and auditory feedback for correct/incorrect answers.",
+        "🔹 **Interactive Coding Environment**: Features built-in code editors with syntax highlighting, real-time code execution for languages like JavaScript and Python, and project-based file management.",
+        "🔹 **Curriculum Organization**: Organizes courses in a hierarchical structure (Courses → Units → Lessons → Challenges), with visual progress tracking and a practice mode for revisiting completed lessons.",
+        "🔹 **Responsive Design**: Adapts to both mobile and desktop devices with clean, educational-focused interfaces.",
+        "🔹 **Subscription and User Management**: Offers free and premium subscription models with additional features for premium users, and persistent user progress that allows users to pick up where they left off.",
+        "🔹 **Technical Features**: Built using **Next.js** and **React**, supporting server-side actions, dynamic content, efficient client-side state management, and integration with services like **Vercel** for deployment."
+      ],
+      date: "April 13, 2024",
+      views: 37,
+    },
+    {
+      id: 2,
       imgPath: chatMainImage,
       title: "ChatApp - Real-Time Chat Application",
       description:
@@ -48,7 +93,7 @@ function Projects() {
       views: 0,
     },
     {
-      id: 2,
+      id: 3,
       imgPath: doctorMainImage,
       title: "Doctor Appointment - Online Consultation System",
       description:
@@ -72,7 +117,7 @@ function Projects() {
       views: 0,
     },
     {
-      id: 3,
+      id: 4,
       imgPath: lmsMainImage,
       title: "LMS - Learning Management System",
       description:
@@ -98,7 +143,7 @@ function Projects() {
       views: 0,
     },
     {
-      id: 4,
+      id: 5,
       imgPath: ngrokMainImage, // صورة الغلاف الرئيسية للمشروع
       title: "ngrok in Action - API Tunneling for Developers",
       description:

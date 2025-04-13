@@ -64,6 +64,22 @@ import lms12 from "./Assets/projectsImages/lms/12.PNG";
 
 import ngrokMainImage from "./Assets/Projects/courses.png";
 
+import codengoMainImage from "./Assets/Projects/codengo.png";
+
+import codengo1 from "./Assets/projectsImages/codengo/1.PNG";
+import codengo2 from "./Assets/projectsImages/codengo/2.PNG";
+import codengo3 from "./Assets/projectsImages/codengo/3.PNG";
+import codengo4 from "./Assets/projectsImages/codengo/4.PNG";
+import codengo5 from "./Assets/projectsImages/codengo/5.PNG";
+import codengo6 from "./Assets/projectsImages/codengo/6.PNG";
+import codengo7 from "./Assets/projectsImages/codengo/7.PNG";
+import codengo8 from "./Assets/projectsImages/codengo/8.PNG";
+import codengo9 from "./Assets/projectsImages/codengo/9.PNG";
+import codengo10 from "./Assets/projectsImages/codengo/10.PNG";
+import codengo11 from "./Assets/projectsImages/codengo/11.PNG";
+import codengo12 from "./Assets/projectsImages/codengo/12.PNG";
+import codengo13 from "./Assets/projectsImages/codengo/13.PNG";
+
 
 
 
@@ -81,6 +97,51 @@ function App() {
   const projects = [
     {
       id: 1,
+      imgPath: codengoMainImage, // صورة الغلاف الرئيسية للمشروع
+      imagePaths: [codengo1, codengo2, codengo3, codengo4, codengo5 , codengo6 , codengo7 , codengo8 , codengo9 , codengo10 , codengo11 , codengo12 , codengo13], // صور إضافية للمشروع
+      title: "Codengo - learn programming in fun way",
+      description:
+        "A platform for learning programming in a fun and interactive way. Users can practice coding and receive instant feedback. ",
+      ghLink: "https://github.com/Tarek-Saad/codengo",
+      demoLink: "https://codengo.vercel.app/",
+      skills: [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Clerk",
+        "drizzle",
+        "Vercel",
+        "GitHub Actions",
+        "React Hooks",
+        "Dynamic Imports",
+        "State Management",
+        "Gamification",
+        "Audio Feedback",
+        "Project-Based Learning",
+        "API Integration",
+        "Real-Time Data",
+        "Responsive Design",
+        "Local Storage"
+      ],
+      technologies: ["WebSockets", "Clerk", "drizzle", "Vercel", "GitHub Actions"],
+      tools: ["VS Code", "GitHub", "Vercel"],
+      keyFeatures: [
+        "🔹 **Diverse Learning Challenges**: Supports various challenge types including coding exercises, multiple choice, text, image, video, and more.",
+        "🔹 **Project-Based Learning**: Offers project creation, completion, and management, allowing users to work on real-world coding tasks.",
+        "🔹 **Gamification**: Includes a heart system for limited attempts, rewards points and XP for completing challenges, and provides visual and auditory feedback for correct/incorrect answers.",
+        "🔹 **Interactive Coding Environment**: Features built-in code editors with syntax highlighting, real-time code execution for languages like JavaScript and Python, and project-based file management.",
+        "🔹 **Curriculum Organization**: Organizes courses in a hierarchical structure (Courses → Units → Lessons → Challenges), with visual progress tracking and a practice mode for revisiting completed lessons.",
+        "🔹 **Responsive Design**: Adapts to both mobile and desktop devices with clean, educational-focused interfaces.",
+        "🔹 **Subscription and User Management**: Offers free and premium subscription models with additional features for premium users, and persistent user progress that allows users to pick up where they left off.",
+        "🔹 **Technical Features**: Built using **Next.js** and **React**, supporting server-side actions, dynamic content, efficient client-side state management, and integration with services like **Vercel** for deployment."
+      ],
+      date: "April 13, 2024",
+      views: 37,
+    },
+    {
+      id: 2,
       imgPath: chatMainImage, // صورة الغلاف الرئيسية للمشروع
       imagePaths: [chat1, chat2, chat3, chat4, chat5 , chat6 , chat7 , chat8], // صور إضافية للمشروع
       title: "ChatApp - Real-Time Chat Application",
@@ -106,7 +167,7 @@ function App() {
       date: "March 27, 2024",
     },
     {
-      id: 2,
+      id: 3,
       imgPath: doctorMainImage, // صورة الغلاف الرئيسية للمشروع
       imagePaths: [
         doctor1, doctor2, doctor3, doctor4, doctor5, doctor6, doctor7, doctor8, 
@@ -133,7 +194,7 @@ function App() {
       date: "March 27, 2024",
     },
     {
-      id: 3,
+      id: 4,
       imgPath: lmsMainImage, // صورة الغلاف الرئيسية للمشروع
       imagePaths: [
         lms1, lms2, lms3, lms4, lms5, lms6, lms7, lms8, 
@@ -163,7 +224,7 @@ function App() {
       date: "March 27, 2024",
     },
     {
-      id: 4,
+      id: 5,
       imgPath: ngrokMainImage, // صورة الغلاف الرئيسية للمشروع
       imagePaths: [ngrokMainImage], // صور إضافية للمشروع
       title: "ngrok in Action - API Tunneling for Developers",
