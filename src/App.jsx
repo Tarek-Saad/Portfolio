@@ -38,7 +38,11 @@ function App() {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await fetch('https://portofolio-fullstack-server-scs6-8z6ws851f.vercel.app/api/projects');
+        const apiBaseUrl = process.env.NODE_ENV === 'production' 
+          ? 'https://portofolio-fullstack-server-scs6.vercel.app'
+          : 'http://localhost:3000';
+          
+        const response = await fetch(`${apiBaseUrl}/api/projects`);
         
         if (!response.ok) {
           throw new Error('Failed to fetch projects');
